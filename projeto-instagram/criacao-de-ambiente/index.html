@@ -1,0 +1,94 @@
+<html>
+
+<head>
+	<title>Trabalhando com React</title>
+	<style>
+		* {
+			font-family: Arial, Helvetica, sans-serif;
+		
+			box-sizing: border-box;
+		}
+
+		code {
+			font-family: 'Courier New', Courier, monospace;
+			background: #333;
+			color: aliceblue;
+			width:100%;
+			padding: 5px 1%;
+		}
+
+		.container {
+			max-width: 80%;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Vamos criar um projeto em React do zero.</h1>
+		<p>Para aprender e testar o React, você deve configurar um Ambiente React em seu computador.</p>
+
+		<p>A ferramenta create-react-app é uma maneira oficialmente suportada de criar aplicativos React.</p>
+
+		<p>O Node.js é necessário para usar o app create-react.<br>Você pode baixá-lo <a
+				href="https://nodejs.org/en/">aqui</a>.<br />Node.JS é uma ferramenta feita para criar programas utilizando Javascript </p>
+
+
+		<p>Abra seu terminal na pasta em que deseja criar seu aplicativo. Em aula utilizamos um diretório padrão para colocar nossos projetos em React. A pasta em si não importa, mas saber onde está o diretório é essencial.
+		</p>
+
+		<p>Execute este comando para criar um aplicativo React chamado nome-do-projeto:</p>
+
+		<code>
+			npx create-react-app nome-do-projeto
+		</code>
+
+		<p>O comando acima configurará tudo o que você precisa para executar um aplicativo React. Esse processo pode levar alguns minutos Uma vez que a mensagem "Happy Hacking" apareça, o seu projeto esta pronto para ser executado.</p>
+
+		<h1>Rodando nossa aplicação</h1>
+
+		<p>Execute este comando para navegar para o diretório nome-do-projeto:</p>
+
+		<code>
+			cd nome-do-projeto
+		</code>
+
+		<p>E então execute o projeto:</p>
+
+		<code>
+			npm start
+		</code>
+
+		<p>Nesse ponto, caso seja a sua primeira vez executando um app em React você será perguntado se deseja proceder. Diga que sim ("y"). Uma nova janela do seu navegador padrão irá aparecer com seu recém-criado React App! Caso contrário, abra seu navegador e digite localhost:3000 na barra de endereços.
+
+		<br><br>Algo assim vai surgir:</p>
+
+		<img src="screenshot.png">
+
+		<h1>E se não for criar do zero?</h1>
+
+		<p>Caso você baixe um template ou um projeto e queira executá-lo você pode navegar para a pasta onde esta seu projeto</p>
+
+		<code>
+			cd "C:\Users\Public\nome-do-projeto"
+		</code>
+
+		<p>E então executar a instalação que consiste em baixar a pasta node_modules e todas as suas dependências. </p>
+
+		<code>
+			npm install
+		</code>		
+		
+		<p>E então executar o projeto</p>
+
+		<code>
+			npm start
+		</code>	
+		
+		<p>Algo assim vai surgir:</p>
+		<img src="screenshot.png">
+	</div>
+</body>
+
+</html>
